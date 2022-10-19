@@ -8,7 +8,8 @@ class Warlock
     private:
         std::string name;
         std::string title;
-        std::map<std::string, ASpell*> spells;
+        // std::map<std::string, ASpell*> spells;
+        Spellbook book;
     public:
         Warlock();
         ~Warlock();
